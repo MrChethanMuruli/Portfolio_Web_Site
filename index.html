@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+        <a href="#home" class="logo">
+            Chethan <span> Muruli</span>.
+        </a>        
+        <button id="theme-switch">            
+            <i class='bx bxs-sun'></i>    
+            <i class='bx bxs-moon'></i>        
+        </button>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <!-- <a href="#contact">Contact</a>             -->
+        </nav>        
+        <button class="gradient-btn" ><a href="#contact">Contact Me</a></button>        
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Chethan</span></h1>
+            <h3>
+                I am a <span class="auto-type"></span>
+            </h3>
+            <p>
+                Aspiring Full Stack Developer from Bangalore
+                Civil engineer turned coder, passionate about building intuitive and impactful web apps.
+                Skilled in <span>HTML, CSS, JavaScript, C#, ASP.NET, and more.</span> <br>
+                Let’s build something great together!                
+            </p>
+            <div class="social-icons">
+                <a href="https://github.com/MrChethanMuruli" target="_blank">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/chethan-muruli-2669701b7/" target="_blank">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>                
+            </div>            
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="Untitled.png" alt="Image">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Untitled.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>
+                I'm a B.Tech Civil Engineering graduate from Bangalore who transitioned into tech with a passion for building digital solutions. 
+                I'm working towards becoming a Full Stack Developer, skilled in<span> HTML, CSS, JavaScript, React.js, Python, C#, and SQL.</span> 
+                Currently focused on <span>ASP.NET Core and MVC Architecture</span>. <br>
+                I value clean design, intuitive UX, and solving real-world problems. 
+                A lifelong learner, I enjoy building small apps, exploring new tools, and collaborating with fellow developers who share the same drive.
+            </p>
+            <a href="#" class="btn"> Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+        <div class="services-container">
+            
+             <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Front End Developement</h4>
+                    <p>
+                        I specialize in creating responsive, interactive, and accessible web interfaces using HTML, CSS, JavaScript, and React.js.
+                        My focus is on delivering smooth and intuitive user experiences that not only look great but also perform well across devices. 
+                        I enjoy transforming design ideas into functional components, ensuring clean structure and maintainability.
+                    </p>
+                </div>
+            </div>
+             <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code-curly"></i>
+                    <h4>Back End Developement</h4>
+                    <p>
+                        I’m currently deepening my expertise in server-side development using .NET (C#), ASP.NET Core, and the MVC architecture.
+                        I love working with logic, databases, and APIs — from designing relational schemas to building and testing secure, scalable RESTful APIs.
+                        I'm also learning how to implement authentication, manage state, and optimize performance.
+                    </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxl-figma"></i>
+                    <h4>UI/UX <br> Design</h4>
+                    <p>
+                        I'm developing my skills in UI/UX design with a focus on building intuitive, accessible, and user-friendly interfaces. 
+                        I'm learning to design with empathy, using tools like Figma and exploring key principles like layout, color, and usability. 
+                        My goal is to bridge the gap between function and form to create better user experiences.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-box">
+            <div class="project-card">
+                <img src="AMAZON CLONE.png" alt="">
+                <h3>Amazon Website Clone</h3>
+                <p>
+                    I developed a static front-end clone of the Amazon homepage with HTML and CSS. 
+                    The project replicates the Amazon layout with a pixel-perfect design, responsive sections, and product cards, headers, and footers. 
+                    It provided great practice in creating responsive layouts and enhancing my HTML/CSS skills.
+                </p>
+                <div class="btn">Review Project</div>
+            </div>
+            <div class="project-card">
+                <img src="2.jpeg" alt="">
+                <h3>Rock Paper Scissors Game</h3>
+                <p>
+                    This interactive browser-based game was built using JavaScript, HTML, and CSS. 
+                    It includes features like real-time score tracking, smooth UI animations, and randomized computer logic.
+                    This project helped me improve my skills in DOM manipulation and provided a deeper understanding of using JavaScript
+                </p>
+                <div class="btn">Review Project</div>
+            </div>
+            <div class="project-card">
+                <img src="3.jpeg" alt="">
+                <h3>Project 3</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Non atque eum eos voluptatem ipsum beatae saepe, aperiam 
+                    cupiditate harum possimus ducimus sapiente consectetur dolorem
+                    voluptatum praesentium soluta quibusdam veniam facilis!
+                </p>
+                <div class="btn">Review Project</div>
+            </div>
+            <div class="project-card">
+                <img src="4.jpeg" alt="">
+                <h3>Project 4</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Non atque eum eos voluptatem ipsum beatae saepe, aperiam 
+                    cupiditate harum possimus ducimus sapiente consectetur dolorem
+                    voluptatum praesentium soluta quibusdam veniam facilis!
+                </p>
+                <div class="btn">Review Project</div>
+            </div>
+            <div class="project-card">
+                <img src="5.jpeg" alt="">
+                <h3>Project 5</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Non atque eum eos voluptatem ipsum beatae saepe, aperiam 
+                    cupiditate harum possimus ducimus sapiente consectetur dolorem
+                    voluptatum praesentium soluta quibusdam veniam facilis!
+                </p>
+                <div class="btn">Review Project</div>
+            </div>
+            <div class="project-card">
+                <img src="6.jpeg" alt="">
+                <h3>Project 6</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Non atque eum eos voluptatem ipsum beatae saepe, aperiam 
+                    cupiditate harum possimus ducimus sapiente consectetur dolorem
+                    voluptatum praesentium soluta quibusdam veniam facilis!
+                </p>
+                <div class="btn">Review Project</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form method="post" action="https://script.google.com/macros/s/AKfycbxAVUGSgfVJ-O3_PuhtB64IZ5aEVHIviuGUDhLmEnnyFuP-XAbfxjPFT2upHF7fIQ2g/exec" name="contact-form">
+
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" name="name">
+                    <input type="email" placeholder="Email" name="email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number" name="phone_number">
+                    <input type="text" placeholder="Subject" name="subject">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id="" placeholder="Your Message" cols="30" rows="10" name="messgage"></textarea>
+                <input type="submit" value="Submit" class="btn" id="submit">
+            </div>
+
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+                <a href="https://github.com/MrChethanMuruli" target="_blank">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/chethan-muruli-2669701b7/" target="_blank">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>                
+            </div>
+
+            <ul class="list">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <p class="copyright">
+                &copy; Chethan P Muruli | All Rights Reserved
+            </p>
+    </footer>
+
+  <script src="script.js" defer></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </body>
+</html>

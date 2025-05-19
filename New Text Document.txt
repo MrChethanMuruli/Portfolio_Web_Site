@@ -1,0 +1,44 @@
+my name is chethan p m. i am based in bangalore. i am btech graduate in civil engineering and now thinking of shifting domains. i graduated in 2024. I have learnt C#, Python, Javasript , html css, react js. i want to be a full stack developer. i am currently learning backend with .net c#, asp .net, mvc. you can add some creative info on your own if u deem so
+
+1) About Me
+Hi, I'm Chethan P M, a B.Tech graduate in Civil Engineering from Bangalore. Although I began my academic journey in construction and structures, I’ve recently discovered a deep passion for building digital solutions instead — which led me into the world of web development.
+
+My transition into tech was driven by curiosity and the thrill of creating interactive web applications. I’ve since immersed myself in learning web technologies, and I’m now actively working towards becoming a Full Stack Developer. With a growing foundation in HTML, CSS, JavaScript, React.js, Python, and C#, I’m currently focused on mastering the backend using ASP.NET and the MVC architecture.
+
+2) About Me 2 (Alternate Perspective)
+Beyond code, I value clean design, user-friendly interfaces, and the art of solving real-world problems with tech. I'm a firm believer in continuous learning and adaptability — traits that helped me make the leap from civil engineering to software development.
+
+In my free time, you’ll probably find me tinkering with small app ideas, watching tech tutorials, or exploring new tools that make development faster and more efficient. I see challenges as opportunities to grow, and I’m excited about collaborating with other developers, designers, and thinkers who share the same drive.
+
+3) Services Offered
+As an aspiring full stack developer, I currently focus on:
+
+Front-End Development
+Crafting responsive and interactive web interfaces using HTML, CSS, JavaScript, and React.js. I aim to make user experiences smooth, intuitive, and visually appealing.
+
+Back-End Development
+Learning and building robust server-side applications with .NET (C#), ASP.NET, and MVC patterns. I enjoy working on logic, data management, and creating RESTful APIs.
+
+UI/UX Design (Beginner Level)
+I have a growing interest in UI/UX principles and am learning to design with empathy — prioritizing usability and accessibility in every project.
+
+4) Projects
+🔹 Rock Paper Scissors Game
+A fun, browser-based game built with JavaScript, HTML, and CSS. It features:
+
+Real-time score tracking
+
+Simple UI and animations
+
+Randomized computer logic
+This project helped me understand DOM manipulation and game logic in JavaScript.
+
+🔹 Amazon Clone (Mock Page)
+A static front-end clone of the Amazon homepage using HTML and CSS.
+Highlights:
+
+Pixel-perfect layout mimicking the real Amazon interface
+
+Responsive sections with headers, product cards, and footers
+
+Developed as a design and layout practice project
